@@ -1,4 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
+
 *{
     text-transform: capitalize;
+    font-family: "Outfit", serif;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#left{
+    width: 50%;
+    margin-top: 3vw;
+}
+#left button{
+    width: 30%;
+}
+@media screen and (max-width:500px) {
+    #home{
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+/* margin-top: 10vw; */
+    }
+    #left h2{
+        font-size: 5vh;
+    }
+    #right{
+    
+        width: 100%;
+        padding: 10px;
+        margin:0 ;
+    }
+    #right img{
+        margin-top: 0;
+    }
+    
 }

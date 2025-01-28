@@ -27,7 +27,7 @@ setIndex(i)
 
   return (
     <div className='min-h-[100vh] bg-gray-100 p-10'>
-      <div className='h-60 px-5 py-5 w-full rounded bg-white flex flex-col gap-5'>
+      <div className='h-60 px-5 py-5 w-full rounded bg-white flex flex-col gap-5  border border-gray-300'>
         <h2 className='text-2xl font-medium'>write a review</h2>
         <textarea
           value={newReview}
@@ -45,14 +45,14 @@ updateReview()
 }
         </div>
       </div>
-      <div  className='h-30 px-5 py-5 w-full rounded bg-white mt-5 border'>
+      <div  className='h-30 px-5 py-5 w-full rounded bg-white mt-5 border border-gray-300'>
           <h1 className='text-xl font-medium'>Reviews</h1>
           <p className='text-lg py-2'>"your products are amazing.."</p>
          
         </div>
 
       {reviews.map((elem, idx) => (
-        <div key={idx} className='h-40 px-5 py-5 w-full rounded bg-white mt-5 border'>
+        <div key={idx} className='h-40 px-5 py-5 w-full rounded bg-white mt-5   border border-gray-300'>
           <h1 className='text-xl font-medium'>Reviews</h1>
           <p className='text-lg py-2 mb-4'>"{elem}"</p>
           <button onClick={()=>{
