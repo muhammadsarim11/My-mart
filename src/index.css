@@ -16,7 +16,8 @@
     margin-top: 3vw;
 }
 #left button{
-    width: 30%;
+    width: 35%;
+    
 }
 @media screen and (max-width:500px) {
     #home{
@@ -39,5 +40,6 @@
     #right img{
         margin-top: 0;
     }
+
     
 }
