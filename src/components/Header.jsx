@@ -10,10 +10,10 @@ const Header = () => {
         <nav className='h-16 px-5 bg-gray-200 flex justify-between items-center'>
             <h3 className='text-lg font-medium'>mart</h3>
             <div id='l' className="flex gap-5 ">
-                <Link to={'/'}>home</Link>
-                <Link to={'/reviews'}>reviews</Link>
-                <Link to={'/about'}>about us</Link>
-                <Link to={'/product'}>product section</Link>
+                <Link className='text-sm' to={'/'}>home</Link>
+                <Link className='text-sm' to={'/reviews'}>reviews</Link>
+                <Link className='text-sm' to={'/about'}>about us</Link>
+                <Link className='text-sm' to={'/product'}>product section</Link>
             </div>
         </nav>
     </div>
