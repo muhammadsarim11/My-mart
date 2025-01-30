@@ -8,7 +8,7 @@ const Header = () => {
     return (
     <div>
         <nav className='h-16 px-5 bg-gray-200 flex justify-between items-center'>
-            <h3 className='text-lg font-medium'>sarim's mart</h3>
+            <h3 className='text-lg font-medium'>mart</h3>
             <div id='l' className="flex gap-5 ">
                 <Link to={'/'}>home</Link>
                 <Link to={'/reviews'}>reviews</Link>

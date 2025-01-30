@@ -33,7 +33,7 @@ setIndex(i)
           value={newReview}
           onChange={(e) => setNewReview(e.target.value)}
           placeholder='share your thoughts with us...'
-          className='rounded h-3/5 w-3/5 border outline-none p-2'
+          className='rounded h-3/5 w-full border outline-none p-2'
         ></textarea>
         <div className='flex justify-between w-3/5'>
        { status?<button onClick={()=>{

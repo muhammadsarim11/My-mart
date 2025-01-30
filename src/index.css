@@ -29,13 +29,13 @@
 /* margin-top: 10vw; */
     }
     #left h2{
-        font-size: 5vh;
+        /* font-size: 5vh; */
     }
     #right{
     
         width: 100%;
         padding: 10px;
-        margin:0 ;
+        margin-bottom:10vw ;
     }
     #right img{
         margin-top: 0;
