@@ -5,6 +5,7 @@ import Reviews from './Reviews'
 import About from './About'
 import Products from './Products'
 import Home from '../Home'
+import Productdetails from './Productdetails'
 const router = () => {
     
   return (
@@ -15,6 +16,7 @@ const router = () => {
     <Route path='/reviews'element={<Reviews/>}></Route>
     <Route path='/about'element={<About/>}></Route>
     <Route path='/product'element={<Products/>}></Route>
+    <Route path='/product/:id' element={<Productdetails/>}></Route>
 </Routes>
     </div>
   )

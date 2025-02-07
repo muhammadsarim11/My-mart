@@ -1,6 +1,16 @@
-import React from 'react'
-
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
+import Home from '../Home';
 const About = () => {
+
+const [first, setfirst] = useState([])
+  const data = async ()=>{
+    const response = await axios.get('https://dummyjson.com/todos')
+    console.log(response.data.todos)   
+    setfirst([response.data])
+  }
+ 
+  
   return (
     
       <div className="min-h-screen bg-gray-50 p-8 flex flex-col items-center">
@@ -63,7 +73,10 @@ const About = () => {
             </button>
           </div>
         </div>
+
+   
       </div>
+      
     );
   
 }
