@@ -28,7 +28,7 @@ const Products = () => {
         return(
           <div 
           onClick={()=>{
-nav(`/product/${idx}`)
+nav(`/product/${elem.id}`)
           }}
           key={idx} className='h-[400px] w-[300px]
             rounded border   border-gray-400 overflow-y-auto p-4   m-4'>
